@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="RVYxzr" name="MKS70 Editor" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="shSITf" name="MKS70 Editor">
+    <GROUP id="{57862DF2-5B92-D365-EE0C-6DF68F08FEFD}" name="Source">
+      <FILE id="b1Caxk" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="pw2Y73" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="HPOim6" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="xfb3D7" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="AUTREC" name="AutomationRecorder.cpp" compile="1" resource="0"
+          file="Source/AutomationRecorder.cpp"/>
+    <FILE id="AUTREH" name="AutomationRecorder.h" compile="0" resource="0"
+          file="Source/AutomationRecorder.h"/>
+    <FILE id="AUTLNC" name="AutomationLaneComponent.cpp" compile="1" resource="0"
+          file="Source/AutomationLaneComponent.cpp"/>
+    <FILE id="AUTLNH" name="AutomationLaneComponent.h" compile="0" resource="0"
+          file="Source/AutomationLaneComponent.h"/>
+    <FILE id="AUTPNC" name="AutomationPanel.cpp" compile="1" resource="0"
+          file="Source/AutomationPanel.cpp"/>
+    <FILE id="AUTPNH" name="AutomationPanel.h" compile="0" resource="0"
+          file="Source/AutomationPanel.h"/>
+    <FILE id="aueqBU" name="ArpParameters.h" compile="0" resource="0" file="Source/ArpParameters.h"/>
+    <FILE id="rycjgS" name="ArpTab.cpp" compile="1" resource="0" file="Source/ArpTab.cpp"/>
+    <FILE id="RZv9iy" name="ArpTab.h" compile="0" resource="0" file="Source/ArpTab.h"/>
+    <FILE id="HUUXOW" name="CompareManager.cpp" compile="1" resource="0"
+          file="Source/CompareManager.cpp"/>
+    <FILE id="sYBuQw" name="CompareManager.h" compile="0" resource="0"
+          file="Source/CompareManager.h"/>
+    <FILE id="wzLlMY" name="LibrarianTab.cpp" compile="1" resource="0"
+          file="Source/LibrarianTab.cpp"/>
+    <FILE id="P94Yoo" name="LibrarianTab.h" compile="0" resource="0" file="Source/LibrarianTab.h"/>
+    <FILE id="Pm3Mgr" name="PresetManager.cpp" compile="1" resource="0"
+          file="Source/PresetManager.cpp"/>
+    <FILE id="Qn4Nhs" name="PresetManager.h" compile="0" resource="0" file="Source/PresetManager.h"/>
+    <FILE id="Ro5Oit" name="ToneData.h" compile="0" resource="0" file="Source/ToneData.h"/>
+    <FILE id="SkCrDk" name="MappingLoader.cpp" compile="1" resource="0"
+          file="Source/MappingLoader.cpp"/>
+    <FILE id="YQLozC" name="MappingLoader.h" compile="0" resource="0" file="Source/MappingLoader.h"/>
+    <FILE id="Nc8NaD" name="MidiHandler.cpp" compile="1" resource="0" file="Source/MidiHandler.cpp"/>
+    <FILE id="BcSDCR" name="MidiHandler.h" compile="0" resource="0" file="Source/MidiHandler.h"/>
+    <FILE id="F4FNLX" name="MKS70_Mapping.h" compile="0" resource="0" file="Source/MKS70_Mapping.h"/>
+    <FILE id="R9DGLQ" name="ParameterInfo.h" compile="0" resource="0" file="Source/ParameterInfo.h"/>
+    <FILE id="KsST6S" name="PatchParameters.h" compile="0" resource="0"
+          file="Source/PatchParameters.h"/>
+    <FILE id="V4MYHD" name="PatchTab.cpp" compile="1" resource="0" file="Source/PatchTab.cpp"/>
+    <FILE id="HMkDlB" name="PatchTab.h" compile="0" resource="0" file="Source/PatchTab.h"/>
+    <FILE id="QNN3XZ" name="SettingsTab.cpp" compile="1" resource="0" file="Source/SettingsTab.cpp"/>
+    <FILE id="tb6nO6" name="SettingsTab.h" compile="0" resource="0" file="Source/SettingsTab.h"/>
+    <FILE id="Tnlq6P" name="ToneLowerTab.cpp" compile="1" resource="0"
+          file="Source/ToneLowerTab.cpp"/>
+    <FILE id="DKDBWF" name="ToneLowerTab.h" compile="0" resource="0" file="Source/ToneLowerTab.h"/>
+    <FILE id="k27bLC" name="ToneParameters.h" compile="0" resource="0"
+          file="Source/ToneParameters.h"/>
+    <FILE id="srSMdV" name="ToneUpperTab.cpp" compile="1" resource="0"
+          file="Source/ToneUpperTab.cpp"/>
+    <FILE id="px8Niy" name="ToneUpperTab.h" compile="0" resource="0" file="Source/ToneUpperTab.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_midi_ci" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_PLUGINHOST_VST3="1" JUCE_PLUGINHOST_AU="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MKS70 Editor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MKS70 Editor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../../Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

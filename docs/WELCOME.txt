@@ -1,0 +1,46 @@
+Welcome to MKS-70 Editor!
+==========================
+
+Thank you for installing MKS-70 Editor, the professional editor for
+Roland MKS-70 and JX-10 synthesizers.
+
+
+GETTING STARTED
+---------------
+
+1. Connect your MKS-70 or JX-10 to your computer via MIDI
+2. Launch MKS-70 Editor
+3. Go to the Settings tab to configure MIDI input/output ports
+4. Click "Request" to fetch current patch data from the synth
+
+
+FEATURES
+--------
+
+* Real-time parameter editing with visual feedback
+* Dual-tone editing (Tone A and Tone B)
+* DCO, VCF, VCA, and LFO controls
+* Envelope editing with visual graphs
+* 300+ factory presets organized by category
+* Preset librarian with search and AI analysis
+* VST3 plugin for DAW integration
+
+
+PRESETS LOCATION
+----------------
+
+Your presets are stored in:
+  %APPDATA%\MKS-70 Editor\Presets\
+
+Factory presets are organized by category:
+  Bass, Lead, Pad, Keys, Strings, Brass, FX, and more
+
+
+SUPPORT
+-------
+
+For help, bug reports, or feature requests:
+https://github.com/mks70editor/mks70-editor/issues
+
+
+Enjoy making music with your MKS-70!

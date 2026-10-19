@@ -1,0 +1,29 @@
+{
+  "firmware": "Vecoven 3.x",
+  "date": "1 Dec 2025",
+  "mappings": {
+    "36": "vcf lfo",
+    "37": "vcf env",
+    "38": "vcf key",
+    "39": "vcf dynamic",
+    "40": "vcf mode",
+    "41": "vca level",
+    "42": "vca dynam",
+    "43": "chorus",
+    "44": "lfo wf 0=random 127= sine",
+    "45": "lfo delay",
+    "46": "lfo rate",
+    "47": "env1 att",
+    "48": "env1 decy",
+    "49": "env1 sus",
+    "50": "env 1 reles",
+    "51": "env1 key 0=off",
+    "52": "env2 att",
+    "53": "env2 decy",
+    "54": "env2 sus",
+    "55": "env2 rel",
+    "56": "env2 key 0=off 127=3",
+    "57": "dco1 range",
+    "58": "vca mode 0= gate 100= env2"
+  }
+}

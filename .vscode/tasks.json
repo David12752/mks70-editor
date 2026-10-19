@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build MKS-70 Editor",
+			"type": "shell",
+			"command": "MSBuild.exe Builds\\VisualStudio2022\\MKS70Editor.sln /p:Configuration=Release",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		}
+	]
+}

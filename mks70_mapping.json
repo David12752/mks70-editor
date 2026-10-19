@@ -1,0 +1,802 @@
+{
+  "device": "Roland MKS-70",
+  "firmware": "Vecoven 3.x",
+  "description": "Parameter mapping for Roland MKS-70 with Vecoven 3.x firmware - CORRECT ADDRESSES",
+  
+  "ToneParams": [
+    {
+      "name": "DCO1_Range",
+      "displayName": "DCO-1 Range",
+      "category": "DCO1",
+      "sysexOffset": 11,
+      "nrpnMSB": 0,
+      "nrpnLSB": 0,
+      "min": 0,
+      "max": 3,
+      "values": ["16'", "8'", "4'", "2'"],
+      "default": 1
+    },
+    {
+      "name": "DCO1_Waveform",
+      "displayName": "DCO-1 Waveform",
+      "category": "DCO1",
+      "sysexOffset": 12,
+      "nrpnMSB": 0,
+      "nrpnLSB": 1,
+      "min": 0,
+      "max": 3,
+      "values": ["Noise", "Square", "Pulse", "Saw"],
+      "default": 3
+    },
+    {
+      "name": "DCO1_Tune",
+      "displayName": "DCO-1 Tune",
+      "category": "DCO1",
+      "sysexOffset": 13,
+      "nrpnMSB": 0,
+      "nrpnLSB": 2,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "DCO1_LFO",
+      "displayName": "DCO-1 LFO",
+      "category": "DCO1",
+      "sysexOffset": 14,
+      "nrpnMSB": 0,
+      "nrpnLSB": 3,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "DCO1_ENV",
+      "displayName": "DCO-1 ENV",
+      "category": "DCO1",
+      "sysexOffset": 15,
+      "nrpnMSB": 0,
+      "nrpnLSB": 4,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+
+    {
+      "name": "DCO2_Range",
+      "displayName": "DCO-2 Range",
+      "category": "DCO2",
+      "sysexOffset": 16,
+      "nrpnMSB": 0,
+      "nrpnLSB": 5,
+      "min": 0,
+      "max": 3,
+      "values": ["16'", "8'", "4'", "2'"],
+      "default": 1
+    },
+    {
+      "name": "DCO2_Waveform",
+      "displayName": "DCO-2 Waveform",
+      "category": "DCO2",
+      "sysexOffset": 17,
+      "nrpnMSB": 0,
+      "nrpnLSB": 6,
+      "min": 0,
+      "max": 3,
+      "values": ["Noise", "Square", "Pulse", "Saw"],
+      "default": 3
+    },
+    {
+      "name": "DCO2_XMod",
+      "displayName": "DCO XMOD",
+      "category": "DCO2",
+      "sysexOffset": 18,
+      "nrpnMSB": 0,
+      "nrpnLSB": 7,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "Sync1", "Sync2", "Metal"],
+      "default": 0
+    },
+    {
+      "name": "DCO2_Tune",
+      "displayName": "DCO-2 Tune",
+      "category": "DCO2",
+      "sysexOffset": 19,
+      "nrpnMSB": 0,
+      "nrpnLSB": 8,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "DCO2_FineTune",
+      "displayName": "DCO-2 Fine Tune",
+      "category": "DCO2",
+      "sysexOffset": 20,
+      "nrpnMSB": 0,
+      "nrpnLSB": 9,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "DCO2_LFO",
+      "displayName": "DCO-2 LFO",
+      "category": "DCO2",
+      "sysexOffset": 21,
+      "nrpnMSB": 0,
+      "nrpnLSB": 10,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "DCO2_ENV",
+      "displayName": "DCO-2 ENV",
+      "category": "DCO2",
+      "sysexOffset": 22,
+      "nrpnMSB": 0,
+      "nrpnLSB": 11,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+
+    {
+      "name": "DCO_Dynamics",
+      "displayName": "DCO Dynamics",
+      "category": "Dynamics",
+      "sysexOffset": 26,
+      "nrpnMSB": 0,
+      "nrpnLSB": 12,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 0
+    },
+    {
+      "name": "DCO_Mode",
+      "displayName": "DCO Mode",
+      "category": "Dynamics",
+      "sysexOffset": 27,
+      "nrpnMSB": 0,
+      "nrpnLSB": 13,
+      "min": 0,
+      "max": 3,
+      "values": ["ENV1", "ENV2", "E1+E2", "E1xE2"],
+      "default": 0
+    },
+
+    {
+      "name": "MIX_DCO1",
+      "displayName": "Mixer DCO-1",
+      "category": "Mixer",
+      "sysexOffset": 28,
+      "nrpnMSB": 0,
+      "nrpnLSB": 14,
+      "min": 0,
+      "max": 127,
+      "default": 127
+    },
+    {
+      "name": "MIX_DCO2",
+      "displayName": "Mixer DCO-2",
+      "category": "Mixer",
+      "sysexOffset": 29,
+      "nrpnMSB": 0,
+      "nrpnLSB": 15,
+      "min": 0,
+      "max": 127,
+      "default": 127
+    },
+    {
+      "name": "MIX_ENV",
+      "displayName": "Mixer ENV",
+      "category": "Mixer",
+      "sysexOffset": 30,
+      "nrpnMSB": 0,
+      "nrpnLSB": 16,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "MIX_Dynamics",
+      "displayName": "Mixer Dynamics",
+      "category": "Mixer",
+      "sysexOffset": 31,
+      "nrpnMSB": 0,
+      "nrpnLSB": 17,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 0
+    },
+    {
+      "name": "MIX_Mode",
+      "displayName": "Mixer Mode",
+      "category": "Mixer",
+      "sysexOffset": 32,
+      "nrpnMSB": 0,
+      "nrpnLSB": 18,
+      "min": 0,
+      "max": 3,
+      "values": ["ENV1", "ENV2", "E1+E2", "E1xE2"],
+      "default": 0
+    },
+
+    {
+      "name": "HPF_Freq",
+      "displayName": "HPF Frequency",
+      "category": "VCF",
+      "sysexOffset": 33,
+      "nrpnMSB": 0,
+      "nrpnLSB": 19,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "Low", "Mid", "High"],
+      "default": 0
+    },
+    {
+      "name": "VCF_Freq",
+      "displayName": "VCF Cutoff",
+      "category": "VCF",
+      "sysexOffset": 34,
+      "nrpnMSB": 0,
+      "nrpnLSB": 20,
+      "min": 0,
+      "max": 127,
+      "default": 127
+    },
+    {
+      "name": "VCF_Resonance",
+      "displayName": "VCF Resonance",
+      "category": "VCF",
+      "sysexOffset": 35,
+      "nrpnMSB": 0,
+      "nrpnLSB": 21,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "VCF_LFO",
+      "displayName": "VCF LFO",
+      "category": "VCF",
+      "sysexOffset": 36,
+      "nrpnMSB": 0,
+      "nrpnLSB": 22,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "VCF_ENV",
+      "displayName": "VCF ENV",
+      "category": "VCF",
+      "sysexOffset": 37,
+      "nrpnMSB": 0,
+      "nrpnLSB": 23,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "VCF_KeyFollow",
+      "displayName": "VCF Key Follow",
+      "category": "VCF",
+      "sysexOffset": 38,
+      "nrpnMSB": 0,
+      "nrpnLSB": 24,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "VCF_Dynamics",
+      "displayName": "VCF Dynamics",
+      "category": "VCF",
+      "sysexOffset": 39,
+      "nrpnMSB": 0,
+      "nrpnLSB": 25,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 0
+    },
+    {
+      "name": "VCF_Mode",
+      "displayName": "VCF Mode",
+      "category": "VCF",
+      "sysexOffset": 40,
+      "nrpnMSB": 0,
+      "nrpnLSB": 26,
+      "min": 0,
+      "max": 3,
+      "values": ["ENV1", "ENV2", "E1+E2", "E1xE2"],
+      "default": 1
+    },
+
+    {
+      "name": "VCA_Level",
+      "displayName": "VCA Level",
+      "category": "VCA",
+      "sysexOffset": 41,
+      "nrpnMSB": 0,
+      "nrpnLSB": 27,
+      "min": 0,
+      "max": 127,
+      "default": 127
+    },
+    {
+      "name": "VCA_Mode",
+      "displayName": "VCA Mode",
+      "category": "VCA",
+      "sysexOffset": 58,
+      "nrpnMSB": 0,
+      "nrpnLSB": 49,
+      "min": 0,
+      "max": 1,
+      "values": ["Gate", "ENV2"],
+      "default": 1
+    },
+    {
+      "name": "VCA_Dynamics",
+      "displayName": "VCA Dynamics",
+      "category": "VCA",
+      "sysexOffset": 42,
+      "nrpnMSB": 0,
+      "nrpnLSB": 28,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 2
+    },
+    {
+      "name": "Chorus",
+      "displayName": "Chorus",
+      "category": "VCA",
+      "sysexOffset": 43,
+      "nrpnMSB": 0,
+      "nrpnLSB": 29,
+      "min": 0,
+      "max": 2,
+      "values": ["Off", "I", "II"],
+      "default": 0
+    },
+
+    {
+      "name": "LFO_Waveform",
+      "displayName": "LFO Waveform",
+      "category": "LFO",
+      "sysexOffset": 44,
+      "nrpnMSB": 0,
+      "nrpnLSB": 30,
+      "min": 0,
+      "max": 3,
+      "values": ["Rand", "Square", "Saw", "Tri"],
+      "default": 3
+    },
+    {
+      "name": "LFO_Delay",
+      "displayName": "LFO Delay",
+      "category": "LFO",
+      "sysexOffset": 45,
+      "nrpnMSB": 0,
+      "nrpnLSB": 31,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "LFO_Rate",
+      "displayName": "LFO Rate",
+      "category": "LFO",
+      "sysexOffset": 46,
+      "nrpnMSB": 0,
+      "nrpnLSB": 32,
+      "min": 0,
+      "max": 127,
+      "default": 50
+    },
+
+    {
+      "name": "ENV1_Attack",
+      "displayName": "ENV-1 Attack",
+      "category": "ENV1",
+      "sysexOffset": 47,
+      "nrpnMSB": 0,
+      "nrpnLSB": 33,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "ENV1_Decay",
+      "displayName": "ENV-1 Decay",
+      "category": "ENV1",
+      "sysexOffset": 48,
+      "nrpnMSB": 0,
+      "nrpnLSB": 34,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "ENV1_Sustain",
+      "displayName": "ENV-1 Sustain",
+      "category": "ENV1",
+      "sysexOffset": 49,
+      "nrpnMSB": 0,
+      "nrpnLSB": 35,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "ENV1_Release",
+      "displayName": "ENV-1 Release",
+      "category": "ENV1",
+      "sysexOffset": 50,
+      "nrpnMSB": 0,
+      "nrpnLSB": 36,
+      "min": 0,
+      "max": 127,
+      "default": 32
+    },
+    {
+      "name": "ENV1_KeyFollow",
+      "displayName": "ENV-1 Key Follow",
+      "category": "ENV1",
+      "sysexOffset": 51,
+      "nrpnMSB": 0,
+      "nrpnLSB": 40,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 0
+    },
+
+    {
+      "name": "ENV2_Attack",
+      "displayName": "ENV-2 Attack",
+      "category": "ENV2",
+      "sysexOffset": 52,
+      "nrpnMSB": 0,
+      "nrpnLSB": 41,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "ENV2_Decay",
+      "displayName": "ENV-2 Decay",
+      "category": "ENV2",
+      "sysexOffset": 53,
+      "nrpnMSB": 0,
+      "nrpnLSB": 42,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "ENV2_Sustain",
+      "displayName": "ENV-2 Sustain",
+      "category": "ENV2",
+      "sysexOffset": 54,
+      "nrpnMSB": 0,
+      "nrpnLSB": 43,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "ENV2_Release",
+      "displayName": "ENV-2 Release",
+      "category": "ENV2",
+      "sysexOffset": 55,
+      "nrpnMSB": 0,
+      "nrpnLSB": 44,
+      "min": 0,
+      "max": 127,
+      "default": 32
+    },
+    {
+      "name": "ENV2_KeyFollow",
+      "displayName": "ENV-2 Key Follow",
+      "category": "ENV2",
+      "sysexOffset": 56,
+      "nrpnMSB": 0,
+      "nrpnLSB": 48,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "1", "2", "3"],
+      "default": 0
+    }
+  ],
+
+  "vecovenExtensions": [
+    {
+      "name": "DCO1_PWM_Depth",
+      "displayName": "DCO-1 PWM Depth",
+      "category": "PWM",
+      "sysexOffset": 53,
+      "extended": true,
+      "min": 0,
+      "max": 127,
+      "default": 0,
+      "firmware": "Vecoven 3.x+"
+    },
+    {
+      "name": "DCO2_PWM_Depth",
+      "displayName": "DCO-2 PWM Depth",
+      "category": "PWM",
+      "sysexOffset": 54,
+      "extended": true,
+      "min": 0,
+      "max": 127,
+      "default": 0,
+      "firmware": "Vecoven 3.x+"
+    },
+    {
+      "name": "LFO_Rate_Fine",
+      "displayName": "LFO Rate Fine",
+      "category": "LFO",
+      "sysexOffset": 55,
+      "extended": true,
+      "min": 0,
+      "max": 127,
+      "default": 0,
+      "firmware": "Vecoven 3.x+"
+    },
+    {
+      "name": "VCF_KeyFollow_Fine",
+      "displayName": "VCF Key Follow Fine",
+      "category": "VCF",
+      "sysexOffset": 56,
+      "extended": true,
+      "min": 0,
+      "max": 127,
+      "default": 0,
+      "firmware": "Vecoven 3.x+"
+    },
+    {
+      "name": "LFO_Phase_Reset",
+      "displayName": "LFO Phase Reset",
+      "category": "LFO",
+      "sysexOffset": 57,
+      "extended": true,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "On Note", "On Trigger", "Always"],
+      "default": 0,
+      "firmware": "Vecoven 3.x+"
+    }
+  ],
+
+  "patchParameters": [
+    {
+      "name": "Patch_Name",
+      "displayName": "Patch Name",
+      "sysexOffset": 0,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "name": "Upper_Tone",
+      "displayName": "Upper Tone Number",
+      "sysexOffset": 16,
+      "min": 0,
+      "max": 49
+    },
+    {
+      "name": "Lower_Tone",
+      "displayName": "Lower Tone Number",
+      "sysexOffset": 17,
+      "min": 0,
+      "max": 49
+    },
+    {
+      "name": "Key_Mode",
+      "displayName": "Keyboard Mode",
+      "sysexOffset": 18,
+      "min": 0,
+      "max": 3,
+      "values": ["Whole", "Dual", "Split", "Whole/Split"]
+    },
+    {
+      "name": "Split_Point",
+      "displayName": "Split Point",
+      "sysexOffset": 19,
+      "min": 0,
+      "max": 127
+    },
+    {
+      "name": "Upper_Balance",
+      "displayName": "Upper/Lower Balance",
+      "sysexOffset": 20,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "Portamento_Time",
+      "displayName": "Portamento Time",
+      "sysexOffset": 21,
+      "min": 0,
+      "max": 127,
+      "default": 0
+    },
+    {
+      "name": "Portamento_Mode",
+      "displayName": "Portamento Mode",
+      "sysexOffset": 22,
+      "min": 0,
+      "max": 1,
+      "values": ["Full", "Fingered"]
+    },
+    {
+      "name": "Upper_Detune",
+      "displayName": "Upper Detune",
+      "sysexOffset": 23,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "Lower_Detune",
+      "displayName": "Lower Detune",
+      "sysexOffset": 24,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    },
+    {
+      "name": "Bend_Range",
+      "displayName": "Bend Range",
+      "sysexOffset": 25,
+      "min": 0,
+      "max": 12,
+      "default": 2
+    },
+    {
+      "name": "Aftertouch_Mode",
+      "displayName": "Aftertouch Mode",
+      "sysexOffset": 26,
+      "min": 0,
+      "max": 3,
+      "values": ["Off", "VCF", "VCA", "Both"]
+    },
+    {
+      "name": "Aftertouch_Amount",
+      "displayName": "Aftertouch Amount",
+      "sysexOffset": 27,
+      "min": 0,
+      "max": 127,
+      "default": 64
+    }
+  ],
+
+  "arpParameters": [
+    {
+      "name": "Arp_BPM",
+      "displayName": "Arpeggiator BPM",
+      "nrpnMSB": 2,
+      "nrpnLSB": 16,
+      "min": 40,
+      "max": 300,
+      "default": 120,
+      "firmware": "Vecoven"
+    },
+    {
+      "name": "Arp_Mode",
+      "displayName": "Arpeggiator Mode",
+      "nrpnMSB": 2,
+      "nrpnLSB": 17,
+      "min": 0,
+      "max": 4,
+      "values": ["Up", "Down", "Up-Down", "Play", "Random"],
+      "default": 0,
+      "firmware": "Vecoven"
+    },
+    {
+      "name": "Arp_Octave",
+      "displayName": "Arpeggiator Octave",
+      "nrpnMSB": 2,
+      "nrpnLSB": 18,
+      "min": 1,
+      "max": 4,
+      "default": 1,
+      "firmware": "Vecoven"
+    },
+    {
+      "name": "Arp_Rate",
+      "displayName": "Arpeggiator Rate",
+      "nrpnMSB": 2,
+      "nrpnLSB": 19,
+      "min": 0,
+      "max": 2,
+      "values": ["1/4", "1/8", "1/16"],
+      "default": 1,
+      "firmware": "Vecoven"
+    },
+    {
+      "name": "Arp_Latch",
+      "displayName": "Arpeggiator Latch",
+      "nrpnMSB": 2,
+      "nrpnLSB": 20,
+      "min": 0,
+      "max": 1,
+      "values": ["Off", "On"],
+      "default": 0,
+      "firmware": "Vecoven"
+    }
+  ],
+
+  "addressReference": {
+    "comment": "Quick reference for Vecoven V3.x addresses",
+    "DCO1": {
+      "Range": 11,
+      "Waveform": 12,
+      "Tune": 13,
+      "LFO": 14,
+      "ENV": 15
+    },
+    "DCO2": {
+      "Range": 21,
+      "Waveform": 22,
+      "XMod": 23,
+      "Tune": 24,
+      "FineTune": 25,
+      "LFO": 26,
+      "ENV": 27
+    },
+    "Dynamics": {
+      "DCO_Dyna": 31,
+      "DCO_Mode": 32
+    },
+    "Mixer": {
+      "DCO1": 41,
+      "DCO2": 42,
+      "ENV": 43,
+      "Dyna": 44,
+      "Mode": 45
+    },
+    "VCF": {
+      "HPF": 51,
+      "Freq": 52,
+      "Res": 53,
+      "LFO": 54,
+      "ENV": 55,
+      "Key": 56,
+      "Dyna": 57,
+      "Mode": 58
+    },
+    "VCA": {
+      "Level": 61,
+      "Mode": 62,
+      "Dyna": 63,
+      "Chorus": 64
+    },
+    "LFO": {
+      "Waveform": 71,
+      "Delay": 72,
+      "Rate": 73
+    },
+    "ENV1": {
+      "Attack": 81,
+      "Decay": 82,
+      "Sustain": 83,
+      "Release": 84,
+      "Key": 85
+    },
+    "ENV2": {
+      "Attack": 91,
+      "Decay": 92,
+      "Sustain": 93,
+      "Release": 94,
+      "Key": 95
+    }
+  }
+}

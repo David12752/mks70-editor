@@ -1,0 +1,80 @@
+           |======>  JX-10/MKS-70 SUPER JX CARTRIDGE SET #4  <======|
+           |===================>  PATCH MEMORY  <===================|
+
+A-1) WAVELENGTH             5 23        E-1) MINARETRAL 5THS 2    12 12
+  2) JX/LA SPECTRUM        18 19          2) TACK ATTACK          35  1
+  3) SEQUENCE DELAY        30 32          3) PING PONG RING       43 43
+  4) MINARETRAL CHOIR      90 90          4) HAIR OF THE DOG      12 81
+  5) PING                      2          5) OUT OF SYNC          46 46
+  6) PING/WHITE NOISE      45  2          6) DELUXE INTRO         30 30
+  7) SHE'S BREAKING UP     26 26          7) RESYNATOR 1          47 48
+  8) HYPERBOREA            20 85          8) BUZZ SYNTH           29 91
+
+B-1) MODERN SOUNDTRACK     43  1        F-1) BASS TRACK           66 44
+  2) ELECTROID             27 27          2) SYNTH BASS 1         17 66
+  3) POLYCLAV              73 81          3) BACKGROUND TRACK 2   90 55
+  4) SUSPENSE SOUNDTRACK   44 43          4) RICOCHET             17 44
+  5) OMNI-BELL             31 19          5) SOUNDTRACK 1         44 44
+  6) BACKGROUND TRACK 1    47 40          6) SOUNDTRACK 2         44 10
+  7) LOW LOWER LOWEST      29 30          7) SOUNDTRACK 3         44 69
+  8) SPOOKYRISE            95 13          8) BELL SOUNDTRACK      25 78
+
+C-1) RANDOM GENERATOR      50 49        G-1) PASSION PLAY          9  9
+  2) E-L-P 2               35 35          2) ROBODROID SUPREME    42 42
+  3) WELDING TORCH 1       14 24          3) ROBODROID DELUXE     39 47
+  4) MINARETRAL 5THS 1     29 32          4) E-L-P 3               1 48
+  5) FADING BELL SYNTH     38  8          5) PLAZMOIDS            41 41
+  6) REZ-O-BELL            47 19          6) S D R A W K C A B    15 34
+  7) WELDING TORCH 2       24 24          7) OMINOUS 1            31 32
+  8) 2-TRACK SEQUENCE      16 22          8) COSMIC ARPEGGIATOR   33 12
+
+D-1) L-R STRINGS           89 89        H-1) BUBBLES              49 50
+  2) HARMOKNEE             38 36          2) ALIEN VOICES          9 10
+  3) SYN-ORCHESTRA         25 25          3) SUB-SONIC LAXATIVE   21 21
+  4) SCIENCE FRICTION      30 32          4) DOGS OF DOOM HOWLN    4 45
+  5) BELL DOUBLER          94 36          5) FRANKENSTEIN         11 11
+  6) INDIAN SPIRITS        10 10          6) SUB-SONIC VOYAGER    37  7
+  7) OMINOUS 2              6 32          7) INDIAN DELAY         23 23
+  8) SYNDULCIMER 1         47 80          8) COMPUTER WARZ        28 28
+
+|==================>  TONE MEMORY  <==================|
+
+  1) SYN FIFTH 3                         26) FUZZ FADE
+  2) PING 1                              27) OMINOUS 1
+  3) SYNTHESINE                          28) COMPUTERZ
+  4) HOWLINWIND                          29) BUZZ RIZE1
+  5) WAVESYNTH2                          30) POPN FRESH
+  6) VOCODER                             31) OMINOUS 2
+  7) SUB SONIC2                          32) OMINOUS 3
+  8) BELL FADER                          33) OWAHH
+  9) PASSIONPLA                          34) BACKWARDS
+ 10) VOICES 1                            35) SYN FIFTH2
+ 11) FRNKNSTEIN                          36) OMINOUS3
+ 12) WHY WYE Y                           37) SUB SONIC3
+ 13) BUZZ ORGAN                          38) TD 1 UP
+ 14) SYN BUZZ 2                          39) ROBODROID1
+ 15) BUZZ RIZE2                          40) TD 2 LO
+ 16) SEQ BASS 1                          41) PLAZMOIDS
+ 17) SYNTHBASS2                          42) ROBODROID2
+ 18) JX/LA                               43) PING 2
+ 19) JX BELL                             44) SND TRACK1
+ 20) STRINGS LR                          45) WIND HOWL
+ 21) SUB SONIC1                          46) INVERTSYN2
+ 22) TUBULAR                             47) RESONATOR2
+ 23) WAVESYNTH1                          48) RESONATOR1
+ 24) THIEF 1                             49) BUBBLES 1
+ 25) THIEF 2                             50) BUBBLES 2
+
+If you are interested in piano, violin, and woodwind patches............
+this collection is NOT what you are looking for.  It is comprised mostly of
+layered synth sounds such as soundtracks, background tracks, and synthetic
+sound effects.  Some of the more interesting ones showing off the
+capabilities of the Super JX are:
+A-5, B-2, B-4, C-3, G-2, and E-7.
+
+(Note: C-64 memory cartridge must be installed in Super JX and memory
+ protect switch on cartridge turned off to load this GenPatch (Atari ST) file.
+ All current patches and tones on C-64 cartridge will be overwritten so be
+ sure to backup all information to disk before loading this file!)
+
+                         twilight@iquest.net

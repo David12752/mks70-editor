@@ -1,0 +1,72 @@
+           |======>  JX-10/MKS-70 SUPER JX CARTRIDGE SET #3  <======|
+           |===================>  PATCH MEMORY  <===================|
+
+A-1) SAMPLED MALE VOICES   29 19      E-1) REPEATING BELLS      30 13
+  2) STRINGS DELAY BELLS   94 56        2) CHURCHBELL PAN L>R   95 97
+  3) DIGITAL SYNTH BRASS    3 11        3) CALIOPE SAMPLED      60 19
+  4) TALKING DRUM * PAD    67  7        4) 4TH JULY SHOT        44 43
+  5) BRASS W/REVERB        80 75        5) CATHEDRAL ORGAN      61 61
+  6) DX-7 BELL MINIMOOG    95 41        6) DIGITAL SECTION       2  4
+  7) AUTOHARP VOCALOHH     18 13        7) SYNPHONY STRIKE       9 34
+  8) DIGITAL METAL VOCAL   40 18        8) METHENEY WAVEFORM    24 91
+
+B-1) WATER DROP PAD,       67 16      F-1) SAMPLED CAR KEYS      2 64
+  2) METAL SEQUENCER       77 14        2) SYNTH BASS/PAD       66 12
+  3) CHORUSDYNA RHODES     40 50        3) WET BRASS W/DELAY     3  3
+  4) MOOGBASS GLIDEPAD     17 34        4) WINDCHIMES PAD       67 64
+  5) TABLA AND SITAR       46 92        5) CHANCHIKI RHYTHM     77 38
+  6) FAIRLIGHT SOUND       23 54        6) BADLY SAMPE FLUTE    69 19
+  7) STRING/HORN T-FADE    88 75        7) ANIMATED STRINGS     57 89
+  8) DEPECHE MODE          32 44        8) HOLLOW PIANO         68 49
+
+C-1) CHICK COREA RHODES    40 20      G-1) KALIMBA ORGAN        25 58
+  2) E-L-P                 28 35        2) WEST END GIRLS       39  9
+  3) SLAPBACK/ECHO         34 45        3) TECHO ARP RHYTHM     79 23
+  4) ELEKTICK GRAND TINK   40  1        4) BOTTLE MARIMBA       92 38
+  5) ZAWINUL SOUND         75 38        5) BOWED REVERB BELL    67 54
+  6) BRASS ORGAN PEDALS    72 76        6) WOOD MALET PPG       26 37
+  7) BOWED STRG W/DELAY    55 55        7) OCTAVA BIG STRINGS   57 89
+  8) WILD KINGDOM          16 31        8) PPG WAVE             21 29
+
+D-1) REGATTA DE BLANC      81  4      H-1) ACOUSTIC > < BELL    94 49
+  2) DANCING WOOD FLUTE    69 38        2) SYNTH BASS / SYNC    66 84
+  3) FRETNOT SOUNDTRACK    70 67        3) STRINGLOCK X-FADE    88 77
+  4) SYNCHRONICY 2         47 36        4) CHOIR BELLS          90 97
+  5) METAL DIGITAL         40 13        5) ART OF NOISE *       40 42
+  6) BACKING >VOX<         18 34        6) MAY,S PAD REPEAT     96 91
+  7) REVERB STRINGS        87  9        7) HUGE ROOM PAD        34 35
+  8) MARIMBA HALL ECHO     90 96        8) VERY DIGITAL SOUND   42 13
+
+|==================>  TONE MEMORY  <==================|
+
+1)  E, GRAND 1             26) TOUCH OW
+2)  SEQ*2                  27) HOLD PEDAL
+3)  WET BRASS              28) FILT, FLOW
+4)  AUTOMATIC              29) VOICES A
+5)  HIGH BELL              30) ECHO
+6)  MINI LEAD1             31) BOMBAY
+7)  GLOCK BELL             32) TABLE 1
+8)  CELESTE                33) BASS STRK
+9)  R/STRING B             34) AHH VOICE
+10) ADC-PIANO*             35) SYN FIFTH
+11) METAL LEAD             36) INTROSWEEP
+12) POLY SYNTH             37) LOG DRUM A
+13) FUSION BLS             38) WOOD PIPE
+14) TEKNO ARP              39) ROLANDBASS
+15) XYLOPHONE              40) RESO-TINK2
+16) ELECTRONIC             41) MOOG LEAD
+17) MOOG BASS              42) METAL
+18) GOWESTVOX1             43) 4TH JULY
+19) VOICE HISS             44) SHOT
+20) CLR RHODES             45) SLAP BACK
+21) PPG SWEEP              46) INVERTSYNC
+22) PIANO 1-B              47) SALAMAND
+23) SEQ*3                  48) WAVE-TINK3
+24) PPG 2,3                49) PIANO C/M2
+25) KALIMBA 2              50) CLR RHODES
+
+
+(Note: C-64 memory cartridge must be installed in Super JX and memory
+ protect switch on cartridge turned off to load this GenPatch (Atari ST) file.
+ All current patches and tones on C-64 cartridge will be overwritten so be
+ sure to backup all information to disk before loading this file!)
